@@ -2628,7 +2628,7 @@ header .row {
 header .top-bar {
   display: block;
   background: #000000;
-  min-width: 220px;
+  min-width: 200px;
   min-height: 66px;
   position: absolute;
   left: 90px;
@@ -2636,22 +2636,16 @@ header .top-bar {
 }
 header .logo {
   float: left;
-  margin-left: 20px;
-  margin-right: 50px;
-  margin-top: 25px;
+  margin-left: 5px;
+  margin-top: 20px;
   position: relative;
 }
 header .logo a {
   display: block;
-  margin: 0;
-  padding: 0;
   border: none;
-  font: 0/0 a;
+  font-family: "poppins-bold", sans-serif;
   text-shadow: none;
-  color: transparent;
-  width: 92px;
-  height: 15px;
-  background: url("data:image/png;base64,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") no-repeat center;
+  color: white;
   background-size: 92px 15px;
 }
 /**
@@ -4903,7 +4897,7 @@ img.mfp-img {
             <a data-test="menu-toggle" class="menu-toggle" href="#"><span>Menu</span></a>
 
             <div class="logo">
-                <a href="index.html">Resume</a>
+                <a href="index.html">My Resume</a>
             </div>
 
             <nav id="main-nav-wrap">
@@ -4969,7 +4963,7 @@ img.mfp-img {
 
                     
 
-                    <p class="lead">J&#x27;ai rejoint Techwan (logiciels de protection de la population) comme développeur logiciel avec notamment une formation parallèle comme développeur Fullstack. Je suis également le co-fondateur de At3flo, un petit tiers-lieu dans le Seeland en Suisse. Après un apprentissage de mécanicien de précision, j&#x27;ai rejoint la haute école spécialisée bernoise où j&#x27;ai obtenu mon Bachelor en Microtechnique et Technique Médicale. Dès lors, j&#x27;ai travaillé pour Breitling (industrie horlogère), comme ingénieur en Industrialisation d&#x27;abord, puis 2 ans comme responsable d&#x27;équipe certifié Scrum Master (méthodologies Agiles). J&#x27;ai également obtenu mon certificat FSEA/SVEB dans le cadre de la formation pour adulte au travers du programme &quot;Jeunesse et Sport&quot;.</p>
+                    <p class="lead">I joined Techwan SA (public safety and emergency software) as software developer with a parallel training as fullstack developer (Ruby on Rails). I&#x27;m also the co-founder of At3flo, a small third place in the Seeland in Switzerland. After a Bachelor&#x27;s degree in Micro- and Medicaltechnology at the Bern University of Applied Sciences, I worked for Breitling (watch industry), first as Industrialization engineer, then 2 years as a team leader certified Scrum Master. I also obtained my FSEA/SVEB certificate as professional adult educator through the &quot;Swiss Youth and Sport&quot; program.</p>
                 </div>
 
             </div>
@@ -5018,7 +5012,7 @@ img.mfp-img {
                             <strong>Servant Leadership</strong>
                         </li>
                         <li>
-                            <div class="progress percent50"><span>50%</span></div>
+                            <div class="progress percent75"><span>75%</span></div>
                             <strong>Web development</strong>
                         </li>
                         <li>
@@ -5102,7 +5096,7 @@ img.mfp-img {
 
                             <div class="timeline-content">
                                 <h4>Techwan S.A.</h4>
-                                <p>Développement logiciel dans le domaine des systèmes de gestion de crises destinés aux services de protection de la population (ambulances, polices, forces armées).  Utilisation notamment des technologies suivantes :  // Travail sur Framework Angular(2+) / Typescript (Javascript) // Material design, HTML5, CSS3 // Services C# pour l&#x27;interaction Front-end &amp; base de données // Travail sur base de données Microsoft SQL Server &amp; PostgreSQL</p>
+                                <p>Software development in the field of crisis management systems for civil protection services (ambulances, police, armed forces).  Use in particular of the following technologies: // Work on Angular(2+) Framework // Typescript (Javascript) // Material design, HTML5, CSS3 // C# services for front-end &amp; database interaction // Work on Microsoft SQL Server &amp; PostgreSQL database</p>
                             </div>
 
                         </div> <!-- /timeline-block -->
@@ -5113,13 +5107,13 @@ img.mfp-img {
                             </div>
 
                             <div class="timeline-header">
-                                <h3>Responsable Contrôle Qualité &amp; Métrologie</h3>
+                                <h3>Quality Control &amp; Metrology Manager</h3>
                                 <p>Jan 2015 - Mar 2017</p>
                             </div>
 
                             <div class="timeline-content">
                                 <h4>Breitling Chronométrie SA</h4>
-                                <p>// Management d&#x27;équipe (~10 pers.) et application des méthodologies Agiles dans l&#x27;horlogerie (Scrum, Kanban, Burndown Chart, etc.) // Responsable de l&#x27;atelier du contrôle qualité (composants entrants) // Mise en place d&#x27;un serveur pour la gestion collaborative du savoir (type wiki) et gestion de bugs en Métrologie interne à l&#x27;entreprise. // Responsable du parc métrologique de l&#x27;entreprise // Responsable des machines de mesures tridimensionnelles // Supervision et expertise stagiaire EPFL (Thèse de Master : &quot;Optimisation De La Mesure Tridimensionnelle Pour Les Pièces Horlogères&quot;)</p>
+                                <p>// Team management (~10 pers.) and application of Agile methodologies in watchmaking (Scrum and Kanban) // Quality control manager (incoming components) // Implementation of a server for collaborative knowledge management (wiki type) and bug management for metrology. // Manager of the company&#x27;s metrological park // Manager of the three-dimensional measuring machines // Supervision and expertise of an EPFL trainee (Master thesis: &quot;Optimisation De La Mesure Tridimensionnelle Pour Les Pièces Horlogères&quot;).</p>
                             </div>
 
                         </div> <!-- /timeline-block -->
@@ -5130,132 +5124,13 @@ img.mfp-img {
                             </div>
 
                             <div class="timeline-header">
-                                <h3>Expert CFC</h3>
-                                <p>Mar 2014 - Present</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Ceff Industrie</h4>
-                                <p>// Expertise des examens finaux des micromécaniciens (CFC-TPI) // Expertise des examens partiels des micromécaniciens (TPP) // Expertise des examens théoriques des micromécaniciens</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-
-                            <div class="timeline-header">
-                                <h3>Métrologue</h3>
-                                <p>Mar 2014 - Dec 2014</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Breitling Chronométrie SA</h4>
-                                <p>// Prise en charge du parc métrologique de l&#x27;entreprise (+1k unités) // Suivi et maintien des moyens de mesure (GMM) // Calculs d&#x27;incertitude et optimisation de la GMM // Gestion et formation parc machines Marcel-Aubert &amp; OGP</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-
-                            <div class="timeline-header">
-                                <h3>Ingénieur en Industrialisation</h3>
+                                <h3>Industrialization engineer</h3>
                                 <p>Jul 2012 - Dec 2014</p>
                             </div>
 
                             <div class="timeline-content">
                                 <h4>Breitling Chronométrie SA</h4>
-                                <p>// Gestion de projet &amp; développement de machines spéciales (Réglage, Assortiments, SAV, T0-T1-T2, etc.) // Analyse de flux, temps et coûts de fabrication - ROI // Programmation software (C, JAVA, R, VB, Assembleur EIP, GCode (ISO)) : post-traitement OGP, commande EIP, uControllers, etc. // Conception électronique (sécurité machine, éclairage embarqué, commande moteur, etc.) // Assistance à la production pour l&#x27;amélioration des procédés, dépannages et mise en train (mécanique, électronique et informatique) // Acquisition et suivi des projets d&#x27;automation (interne / externe) // Engineering management et mise en place de documents Qualité</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-
-                            <div class="timeline-header">
-                                <h3>Chauffeur poids lourds | Interim</h3>
-                                <p>Jul 2008 - Sep 2008</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Menétrey Ascenseurs SA</h4>
-                                <p></p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-
-                            <div class="timeline-header">
-                                <h3>Chauffeur poids lourds | Interim</h3>
-                                <p>Jun 2008 - Jul 2008</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Ilford Imaging Switzerland</h4>
-                                <p></p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-
-                            <div class="timeline-header">
-                                <h3>Polymécanicien | Interim</h3>
-                                <p>Mar 2008 - Jun 2008</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Liebherr Machines Bulle SA</h4>
-                                <p></p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-
-                            <div class="timeline-header">
-                                <h3>Chauffeur poids lourds</h3>
-                                <p>Jun 2007 - Mar 2008</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Département fédéral de la défense, de la protection de la population et des sports</h4>
-                                <p>// Obligations militaires entièrement accomplies</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-
-                            <div class="timeline-header">
-                                <h3>Polymécanicien | CDD</h3>
-                                <p>Jun 2006 - Sep 2006</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>AMKY, Mécanique de précision et étampes</h4>
-                                <p></p>
+                                <p>// Project management &amp; development of special machines (Adjustment, Assortments, after-sales service, T0-T1-T2, etc.) // Flow analysis, manufacturing time and costs - ROI // Software programming (C, JAVA, R, VB, EIP Assembler, GCode (ISO)): OGP post-processing, EIP control, uControllers, etc. // Electronic design (machine safety, on-board lighting, engine control, etc.) // Production assistance for process improvement, troubleshooting and set-up (mechanical, electronic and IT) // Acquisition and follow-up of automation projects (internal / external) // Engineering management and implementation of quality documents.</p>
                             </div>
 
                         </div> <!-- /timeline-block -->
@@ -5286,36 +5161,17 @@ img.mfp-img {
                             </div>
 
                             <div class="timeline-header">
-                                <h3>Sports Referee</h3>
-                                <p>Aug 2018 - Present</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Swiss Ice Hockey Federation</h4>
-                                <p><p>// Depuis 2019 : Referee Cat. Novices
-// Depuis 2018 : Referee Cat. Moskito</p>
-</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-handshake-o"></i>
-                            </div>
-
-                            <div class="timeline-header">
                                 <h3>Co-fondateur &amp; CTO</h3>
                                 <p>Dec 2015 - Present</p>
                             </div>
 
                             <div class="timeline-content">
                                 <h4>At3flo</h4>
-                                <p><p>// Responsable technique du Laboratoire de Fabrication (Fab Lab).
-// Conception et animation de workshops sur la fabrication digitale, animation du Fab Lab (prototypage &amp; utilisation machines).
-// Développement de projets digitaux (modules de formation E-Learning, sites web, programmation embarquée, etc.)
-// Engineering consulting, gestion des stocks, gestion du parc machines, gestion des offres et devis, contact avec les clients.
-// Conception et animation de formations (modélisation 3D, dessin 2D, fabrication CNC 5 axes, découpeuse Laser CO2, plotter de découpe Vinyl)</p>
+                                <p><p>// Technical manager of the Fabrication Laboratory (Fab Lab).
+// Design and animation of workshops on digital manufacturing, animation of the Fab Lab (prototyping &amp; machine use).
+// Development of digital projects (E-Learning training modules, websites, embedded programming, etc.).
+// Engineering consulting, stock management, management of the machine park, management of quotes, contact with customers.
+// Design and animation of training courses (3D modelling, 2D drawing, 5-axis CNC manufacturing, CO2 Laser cutting machine, vinyl cutting plotter)</p>
 </p>
                             </div>
 
@@ -5333,92 +5189,8 @@ img.mfp-img {
 
                             <div class="timeline-content">
                                 <h4>Office fédéral du sport OFSPO</h4>
-                                <p><p>// Formateur des cadres J+S (Hockey sur gazon/en salle, Streethockey &amp; Sport des Enfants)
-// Certifié FSEA/SVEB en formation d&#x27;adultes et formation de pratique</p>
-</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-handshake-o"></i>
-                            </div>
-
-                            <div class="timeline-header">
-                                <h3>Co-Responsable Formation &amp; Promotion de la relève</h3>
-                                <p>Aug 2015 - Oct 2016</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Swiss Streethockey</h4>
-                                <p><p>Stratégie et innovation pédagogique dans les secteurs :
-// Jeunesse &amp; Sport (conception de cours et support à la planification stratégique)
-// Entraîneurs adultes (conception de learning module et technopédagogie)
-// Management de club (master plan pour la formation des cadres)
-// Formation des arbitres (cours magistral)</p>
-</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-handshake-o"></i>
-                            </div>
-
-                            <div class="timeline-header">
-                                <h3>Président</h3>
-                                <p>Nov 2011 - Jun 2014</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Union des Sociétés Sportives de la Ville de Fribourg</h4>
-                                <p><p>// Direction et gestion de l&#x27;association faîtière des sociétés sportives de la ville de Fribourg (90 associations)
-// Membre de la Commission des sports de la Ville de Fribourg
-// Co-réalisation du livret de présentation des sports de la ville de Fribourg (destiné aux écoles et aux familles)
-// Conception de la nouvelle identité graphique (site web et logo)</p>
-</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-handshake-o"></i>
-                            </div>
-
-                            <div class="timeline-header">
-                                <h3>Président-fondateur</h3>
-                                <p>Jul 2008 - Oct 2016</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Streethockey Club Fribourg Vipers</h4>
-                                <p><p>// Fondation et gestion du premier club de street-hockey de la région de Fribourg
-// Direction de comité (8-12 personnes)
-// 2 équipes adultes et près de 50 membres au plus haut de sa croissance
-// Promotion en 1ère ligue</p>
-</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-handshake-o"></i>
-                            </div>
-
-                            <div class="timeline-header">
-                                <h3>Sports Referee</h3>
-                                <p>Sep 2002 - Jul 2015</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Swiss Street Hockey Referee</h4>
-                                <p><p>// Depuis 2013 : Referee Pool-A (NLA)
-// Depuis 2011 : Referee Pool-B (NLB)
-// Depuis 2002 : Referee TR (1. Ligue / 2. Ligue / Juniors)</p>
+                                <p><p>// Swiss Youth and Sports Trainers Trainer (Field Hockey, Streethockey &amp; Children&#x27;s Sports)
+// FSEA/SVEB certified as professional adult educator and practice training</p>
 </p>
                             </div>
 
@@ -5486,23 +5258,6 @@ img.mfp-img {
                             </div>
     
                             <div class="timeline-header">
-                                <h3>Certification (2cHUcn)</h3>
-                                <p>Feb 2020 - Present</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Education First (EF) - Online course</h4>
-                                <p>Standard English Test</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-    
-                            <div class="timeline-header">
                                 <h3>Attestation</h3>
                                 <p>Sep 2019 - Jan 2020</p>
                             </div>
@@ -5520,7 +5275,7 @@ img.mfp-img {
                             </div>
     
                             <div class="timeline-header">
-                                <h3>Certification</h3>
+                                <h3>Attestation</h3>
                                 <p>Apr 2019 - Jun 2019</p>
                             </div>
 
@@ -5537,183 +5292,13 @@ img.mfp-img {
                             </div>
     
                             <div class="timeline-header">
-                                <h3>Certification (469007) - validity January 2021</h3>
-                                <p>Jan 2019 - Present</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>ASS Alliance suisse des samaritains (Section - St-Blaise)</h4>
-                                <p>Secouriste niveau 1 IAS &amp; BLS-AED-SRC Generic Provider</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-    
-                            <div class="timeline-header">
-                                <h3>Certification (Coursera 5L2KQNNA33)</h3>
-                                <p>Oct 2018 - Nov 2018</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>The Hong Kong University of Science and Technology - Online course</h4>
-                                <p>Front-End JavaScript Frameworks: Angular</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-    
-                            <div class="timeline-header">
-                                <h3>Certification (Coursera 7XADV6CCJR9C)</h3>
-                                <p>Oct 2018 - Oct 2018</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>The Hong Kong University of Science and Technology - Online course</h4>
-                                <p>Front-End Web UI Frameworks and Tools: Bootstrap 4</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-    
-                            <div class="timeline-header">
-                                <h3>Certification (edX 8e0b770a73b64037b0f69112b9eb0b46)</h3>
-                                <p>Oct 2018 - Oct 2018</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Microsoft - Online course</h4>
-                                <p>DEV273x: Introduction to TypeScript 2</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-    
-                            <div class="timeline-header">
-                                <h3>Certification CH090106-M1-AKV-293 (946)</h3>
-                                <p>Oct 2016 - Present</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Office fédéral du sport OFSPO - Magglingen</h4>
-                                <p>FSEA / SVEB Formateur d&#x27;adultes et Formateur de pratique</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-    
-                            <div class="timeline-header">
-                                <h3>Certification (163111)</h3>
-                                <p>Mar 2016 - Present</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Scrum.org (Pyxis Technologies inc. - Lausanne)</h4>
-                                <p>Professional Scrum Master I</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-    
-                            <div class="timeline-header">
-                                <h3>Attestation (France Université Numérique)</h3>
-                                <p>Feb 2015 - Apr 2015</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Cnam (Conservatoire national des arts et métiers) - Online course</h4>
-                                <p>Du manager au leader 2.0</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-    
-                            <div class="timeline-header">
-                                <h3>Certification </h3>
-                                <p>Apr 2014 - May 2014</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>FSRM Swiss Foundation for Research in Microtechnology - Neuchâtel</h4>
-                                <p>Mise en place d&#x27;un Service de métrologie</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-    
-                            <div class="timeline-header">
-                                <h3>Certification (168882)</h3>
-                                <p>Feb 2014 - Feb 2014</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Festo - Yverdon-les-Bains</h4>
-                                <p>Dépannage pneumatique et électropneumatique</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-    
-                            <div class="timeline-header">
                                 <h3>Attestation</h3>
                                 <p>Sep 2014 - Nov 2014</p>
                             </div>
 
                             <div class="timeline-content">
-                                <h4>Swiss Olympic (Service du Sport - Fribourg)</h4>
+                                <h4>Swiss Olympic (Association Fribourgeoise des Sports)</h4>
                                 <p>Formation en management de club</p>
-                            </div>
-
-                        </div> <!-- /timeline-block -->
-                        <div class="timeline-block">
-
-                            <div class="timeline-ico">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-    
-                            <div class="timeline-header">
-                                <h3>Certification (Coursera)</h3>
-                                <p>Sep 2013 - Nov 2013</p>
-                            </div>
-
-                            <div class="timeline-content">
-                                <h4>Johns Hopkins University - Online course</h4>
-                                <p>Computing for Data Analysis</p>
                             </div>
 
                         </div> <!-- /timeline-block -->
@@ -5741,7 +5326,7 @@ img.mfp-img {
                             </div>
     
                             <div class="timeline-header">
-                                <h3>Certification (16 ECTS)</h3>
+                                <h3>Diploma (16 ECTS)</h3>
                                 <p>Sep 2010 - Jul 2012</p>
                             </div>
 
@@ -5775,7 +5360,7 @@ img.mfp-img {
                             </div>
     
                             <div class="timeline-header">
-                                <h3>Certification (122 ECTS - Bachelor of Science HES-SO)</h3>
+                                <h3>Attestation (122 ECTS - Bachelor of Science HES-SO)</h3>
                                 <p>Sep 2008 - Jul 2010</p>
                             </div>
 
@@ -5815,7 +5400,213 @@ img.mfp-img {
 
                             <div class="timeline-content">
                                 <h4>Centre Professionnel Artisanal et Industriel du Jura Bernois - St-Imier</h4>
-                                <p>Polymécanique</p>
+                                <p>Precision mechanic</p>
+                            </div>
+
+                        </div> <!-- /timeline-block -->
+
+                </div> <!-- /timeline-wrap -->
+
+            </div> <!-- /col-twelve -->
+
+        </div> <!-- /resume-timeline -->
+
+        <div class="row resume-timeline">
+
+            <div class="col-twelve resume-header">
+
+                <h2>Certifications</h2>
+
+            </div> <!-- /resume-header -->
+
+            <div class="col-twelve">
+
+                <div class="timeline-wrap">
+
+                        <div class="timeline-block">
+
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+    
+                            <div class="timeline-header">
+                                <h3>Certification (2cHUcn)</h3>                             
+                                <p>Feb 2020 - Present</p>
+                            </div>
+
+                            <div class="timeline-content">
+                                <h4>Education First (EF) - Online course</h4>
+                                <p>Standard English Test</p>
+                            </div>
+
+                        </div> <!-- /timeline-block -->
+                        <div class="timeline-block">
+
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+    
+                            <div class="timeline-header">
+                                <h3>Certification (469007) - validity January 2021</h3>                             
+                                <p>Jan 2019 - Present</p>
+                            </div>
+
+                            <div class="timeline-content">
+                                <h4>ASS Alliance suisse des samaritains (Section - St-Blaise)</h4>
+                                <p>Secouriste niveau 1 IAS &amp; BLS-AED-SRC Generic Provider</p>
+                            </div>
+
+                        </div> <!-- /timeline-block -->
+                        <div class="timeline-block">
+
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+    
+                            <div class="timeline-header">
+                                <h3>Certification (Coursera 5L2KQNNA33)</h3>                             
+                                <p>Oct 2018 - Nov 2018</p>
+                            </div>
+
+                            <div class="timeline-content">
+                                <h4>The Hong Kong University of Science and Technology - Online course</h4>
+                                <p>Front-End JavaScript Frameworks: Angular</p>
+                            </div>
+
+                        </div> <!-- /timeline-block -->
+                        <div class="timeline-block">
+
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+    
+                            <div class="timeline-header">
+                                <h3>Certification (Coursera 7XADV6CCJR9C)</h3>                             
+                                <p>Oct 2018 - Oct 2018</p>
+                            </div>
+
+                            <div class="timeline-content">
+                                <h4>The Hong Kong University of Science and Technology - Online course</h4>
+                                <p>Front-End Web UI Frameworks and Tools: Bootstrap 4</p>
+                            </div>
+
+                        </div> <!-- /timeline-block -->
+                        <div class="timeline-block">
+
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+    
+                            <div class="timeline-header">
+                                <h3>Certification (edX 8e0b770a73b64037b0f69112b9eb0b46)</h3>                             
+                                <p>Oct 2018 - Oct 2018</p>
+                            </div>
+
+                            <div class="timeline-content">
+                                <h4>Microsoft - Online course</h4>
+                                <p>DEV273x: Introduction to TypeScript 2</p>
+                            </div>
+
+                        </div> <!-- /timeline-block -->
+                        <div class="timeline-block">
+
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+    
+                            <div class="timeline-header">
+                                <h3>Certification CH090106-M1-AKV-293 (946)</h3>                             
+                                <p>Oct 2016 - Present</p>
+                            </div>
+
+                            <div class="timeline-content">
+                                <h4>Office fédéral du sport OFSPO - Magglingen</h4>
+                                <p>FSEA / SVEB Formateur d&#x27;adultes et Formateur de pratique</p>
+                            </div>
+
+                        </div> <!-- /timeline-block -->
+                        <div class="timeline-block">
+
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+    
+                            <div class="timeline-header">
+                                <h3>Certification (163111)</h3>                             
+                                <p>Mar 2016 - Present</p>
+                            </div>
+
+                            <div class="timeline-content">
+                                <h4>Scrum.org (Pyxis Technologies inc. - Lausanne)</h4>
+                                <p>Professional Scrum Master I</p>
+                            </div>
+
+                        </div> <!-- /timeline-block -->
+                        <div class="timeline-block">
+
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+    
+                            <div class="timeline-header">
+                                <h3>Certification (France Université Numérique)</h3>                             
+                                <p>Feb 2015 - Apr 2015</p>
+                            </div>
+
+                            <div class="timeline-content">
+                                <h4>Cnam (Conservatoire national des arts et métiers) - Online course</h4>
+                                <p>Du manager au leader 2.0</p>
+                            </div>
+
+                        </div> <!-- /timeline-block -->
+                        <div class="timeline-block">
+
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+    
+                            <div class="timeline-header">
+                                <h3>Certification </h3>                             
+                                <p>Apr 2014 - May 2014</p>
+                            </div>
+
+                            <div class="timeline-content">
+                                <h4>FSRM Swiss Foundation for Research in Microtechnology - Neuchâtel</h4>
+                                <p>Mise en place d&#x27;un Service de métrologie</p>
+                            </div>
+
+                        </div> <!-- /timeline-block -->
+                        <div class="timeline-block">
+
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+    
+                            <div class="timeline-header">
+                                <h3>Certification (168882)</h3>                             
+                                <p>Feb 2014 - Feb 2014</p>
+                            </div>
+
+                            <div class="timeline-content">
+                                <h4>Festo - Yverdon-les-Bains</h4>
+                                <p>Dépannage pneumatique et électropneumatique</p>
+                            </div>
+
+                        </div> <!-- /timeline-block -->
+                        <div class="timeline-block">
+
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+    
+                            <div class="timeline-header">
+                                <h3>Certification (Coursera)</h3>                             
+                                <p>Sep 2013 - Nov 2013</p>
+                            </div>
+
+                            <div class="timeline-content">
+                                <h4>Johns Hopkins University - Online course</h4>
+                                <p>Computing for Data Analysis</p>
                             </div>
 
                         </div> <!-- /timeline-block -->
